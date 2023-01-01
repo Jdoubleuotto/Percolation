@@ -46,3 +46,14 @@ For example, if sites are opened in a 20-by-20 lattice according to the snapshot
 
 
 To perform a series of computational experiments, create a data type PercolationStats with the following API in PercolationStats.java
+
+/**********************************************************************
+
+Understanding the InteractivePercolationVisualizer.java file
+
+**********************************************************************/
+
+ * This program takes the grid size n as a command-line argument.
+ Then, the user repeatedly clicks sites to open with the mouse.
+ After each site is opened, it draws full sites in light blue,
+ open sites (that aren't full) in white, and blocked sites in black.
